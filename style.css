@@ -16,9 +16,6 @@ main{
     background-repeat: repeat-x;  
 }
 
-.intestazione img{
-    
-}
 /* Fine Intestazione */
 
 /* Contenuto centrale sito */
@@ -75,29 +72,13 @@ main{
     height: 250px;
 }
 
-/* .immagine-footer-uno h3{
-    margin: 10px;
-}
-
-.immagine-footer-due{
-    margin: 0px;
-    background-image: url('img/graph.jpg');
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    width: 250px;
-    height: 250px;
-}
-
-.immagine-footer-due h3{
-    margin: 10px;
-} */
 
 .immagine-footer h3{
     color: #FFFFFF;
     font-weight: bold;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 100px;
+    
+    margin-top: 20px;
 }
 
 .primo-titolo{
