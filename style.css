@@ -54,3 +54,29 @@
     color: rgb(128, 128, 128);
     font-weight: bold;
 }
+
+.immagine-footer-uno{
+    margin: 0px;
+    background-image: url('img/monitor.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+}
+
+.immagine-footer-uno h3{
+    margin: 10px;
+}
+
+.immagine-footer-due{
+    margin: 0px;
+    background-image: url('img/graph.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+}
+
+.immagine-footer-due h3{
+    margin: 10px;
+}
