@@ -64,7 +64,7 @@
     height: 250px;
 }
 
-.immagine-footer-uno h3{
+/* .immagine-footer-uno h3{
     margin: 10px;
 }
 
@@ -79,4 +79,20 @@
 
 .immagine-footer-due h3{
     margin: 10px;
+} */
+
+.immagine-footer h3{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+}
+
+.primo-titolo{
+    background-image: url('img/monitor.jpg');
+}
+
+.secondo-titolo{
+    background-image: url('img/graph.jpg');
 }
