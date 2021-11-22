@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    box sizing: border box;
+    }
+    
 /* Intestazione */
 .intestazione{
     background-image: url('img/pattern.png');
