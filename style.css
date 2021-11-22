@@ -25,7 +25,10 @@ main{
 
 /* Fine Intestazione */
 
+
 /* Contenuto centrale sito */
+
+/* Div editore e data */
 .editore{
     font-size: 15px;
     color: rgb(128, 128, 128);
@@ -39,7 +42,9 @@ main{
     font-size: 10px;
     margin-bottom: 20px;
 }
+/* Fine Div editore e data */
 
+/* Fonti */
 .fonti{
     font-size: 10px;
     margin-bottom: 20px;
@@ -48,16 +53,22 @@ main{
 .evidenziatore{
     background-color: rgb(255, 230, 0);
 }
+/* Fine Fonti */
 
+/* Paragrafo */
 .testo{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* Fine Paragrafo */
 
+/* Elenco non ordinato */
 .elenco-non-ordinato{
     margin-bottom: 20px;
 }
+/* Fine Elenco non ordinato */
 
+/* Tabella */
 table{
     border-collapse: collapse;
 }
@@ -73,41 +84,34 @@ table{
 .background-blue{
     background-color: rgba(0, 183, 255, 0.5);
 }
+/* Tabella */
 
 /* Fine Contenuto centrale sito */
 
-.title-footer{
-    color: #ccc;
-    font-weight: bold;
+
+/* Footer */
+footer{
+    margin: 20px;
+    width: 80%;
 }
 
 .title-footer{
-    color: rgb(128, 128, 128);
+    color: rgb(139, 139, 139);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.immagine-footer-uno{
-    margin: 0px;
-    background-image: url('img/monitor.jpg');
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    width: 250px;
-    height: 250px;
+.container{
+    position: relative;
+    width: 100%;
 }
 
-
-.immagine-footer h3{
-    color: #FFFFFF;
+.text-left{
+    position: absolute;
     font-weight: bold;
-    background-repeat: no-repeat;
-    
-    margin-top: 20px;
+    color:#FFFF;       
+    top: 10px;
+    left: 10px;
+    width: 100%;
 }
-
-.primo-titolo{
-    background-image: url('img/monitor.jpg');
-}
-
-.secondo-titolo{
-    background-image: url('img/graph.jpg');
-}
+/* Fine Footer */
