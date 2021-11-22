@@ -13,7 +13,14 @@ main{
 .intestazione{
     background-image: url('img/pattern.png');
     background-color: rgb(0, 132, 255);
-    background-repeat: repeat-x;  
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.logo{
+    margin: 10px;
+    padding-top: 40px;
+    width: 10em;  
 }
 
 /* Fine Intestazione */
@@ -30,21 +37,37 @@ main{
 
 .data{
     font-size: 10px;
+    margin-bottom: 20px;
 }
 
 .fonti{
     font-size: 10px;
+    margin-bottom: 20px;
 }
 
 .evidenziatore{
     background-color: rgb(255, 230, 0);
 }
 
+.testo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.elenco-non-ordinato{
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
 
 .head-tabella{
     background-color: rgb(0, 132, 255);
     color: rgb(255, 255, 255);
     font-weight: bold;
+    text-align: left;
+    width: 10%;
 }
 
 .background-blue{
