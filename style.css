@@ -13,14 +13,13 @@ main{
 .intestazione{
     background-image: url('img/pattern.png');
     background-color: rgb(0, 132, 255);
-    background-repeat: repeat-x;
-    background-size: auto;    
+    background-size: 30%;  
+    height: 100px;  
 }
 
 .logo{
-    margin: 10px;
-    padding-top: 40px;
-    width: 10em;  
+    height:50px;
+    margin-top: 40px; 
 }
 
 /* Fine Intestazione */
@@ -30,7 +29,7 @@ main{
 
 /* Div editore e data */
 .editore{
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(128, 128, 128);
 }
 
@@ -39,7 +38,7 @@ main{
 }
 
 .data{
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 /* Fine Div editore e data */
@@ -99,9 +98,10 @@ footer{
     color: rgb(139, 139, 139);
     font-weight: bold;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
-.container{
+/* .container{
     position: relative;
     width: 100%;
 }
@@ -113,5 +113,25 @@ footer{
     top: 10px;
     left: 10px;
     width: 100%;
+} */
+
+.image{
+    width: 208px;
+    height: 160px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
 }
+
+#image-monitor{
+    background-image: url('img/monitor.jpg');
+}
+
+#image-graph{
+    background-image: url('img/graph.jpg');
+}
+
+
 /* Fine Footer */
